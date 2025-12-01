@@ -10,6 +10,18 @@
 
 Convert marketplace buyers into deployed customers in **<5 minutes** with **zero technical friction**.
 
+## 💡 Why KairosLaunch?
+
+SaaS founders face a fundamental dilemma: how to balance marketplace visibility with code security and customer experience. Current distribution models force entrepreneurs to choose between exposing source code publicly, burdening customers with manual installation, or managing complex hosted infrastructure.
+
+**KairosLaunch solves this** by providing secure, automated, one-click deployment that protects your intellectual property while delivering a frictionless customer experience. [Read our complete value proposition →](VALUE_PROPOSITION.md)
+
+**Key Benefits:**
+- 🔒 **Code Protection** - Private repositories, never exposed
+- ⚡ **80% Less Support** - Automated deployment eliminates installation tickets
+- 🚀 **<3 Minute Setup** - From purchase to live deployment
+- 🌐 **Open Source** - Community-driven, transparent, extensible
+
 ## ✨ Features
 
 - ✅ **Multi-Product Support** - Deploy multiple products from a single instance
@@ -111,6 +123,7 @@ KairosLaunch is built with:
 
 ## 📚 Documentation
 
+- [Value Proposition](VALUE_PROPOSITION.md) - Why KairosLaunch? Complete value proposition and benefits
 - [Configuration Guide](kairos-launch/docs/configuration.md) - Learn how to configure products
 - [API Documentation](kairos-launch/docs/api.md) - API endpoints reference
 - [Examples](examples/) - Example product configurations
