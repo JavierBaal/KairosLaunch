@@ -111,8 +111,10 @@ KairosLaunch is built with:
 
 ## 📚 Documentation
 
-- [Configuration Guide](docs/configuration.md) - Learn how to configure products
-- [API Documentation](docs/api.md) - API endpoints reference
+- [Configuration Guide](kairos-launch/docs/configuration.md) - Learn how to configure products
+- [API Documentation](kairos-launch/docs/api.md) - API endpoints reference
+- [Examples](examples/) - Example product configurations
+- [Roadmap](kairos-launch/ROADMAP.md) - Planned features and improvements
 - [Contributing Guide](CONTRIBUTING.md) - How to contribute
 
 ## 🤝 Contributing
