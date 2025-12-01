@@ -1,0 +1,45 @@
+{
+  "product": {
+    "id": "kairos-creative",
+    "name": "Kairos Creative",
+    "description": "White-label SaaS platform for creative agencies",
+    "logo": "https://cdn.kairoscreative.com/logo.png",
+    "version": "1.0.0"
+  },
+  "marketplace": {
+    "platform": "codecanyon",
+    "itemId": "12345678",
+    "authorUsername": "javier-baal"
+  },
+  "repository": {
+    "provider": "github",
+    "owner": "your-org",
+    "repo": "kairos-creative-private",
+    "branch": "main",
+    "isPrivate": true
+  },
+  "deployment": {
+    "platform": "vercel",
+    "framework": "nextjs",
+    "buildCommand": "npm run build",
+    "outputDirectory": ".next",
+    "installCommand": "npm install",
+    "requiredEnvVars": [
+      {
+        "key": "LICENSE_KEY",
+        "value": "{{PURCHASE_CODE}}"
+      },
+      {
+        "key": "DATABASE_URL",
+        "userInput": true,
+        "required": false,
+        "description": "PostgreSQL connection (optional)"
+      }
+    ]
+  },
+  "validation": {
+    "endpoint": "https://api.kairoscreative.com/validate",
+    "method": "POST"
+  }
+}
+
