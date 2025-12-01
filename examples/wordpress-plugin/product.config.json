@@ -1,0 +1,41 @@
+{
+  "product": {
+    "id": "wordpress-plugin-pro",
+    "name": "WordPress Plugin Pro",
+    "description": "A premium WordPress plugin with advanced features",
+    "logo": "https://example.com/plugin-logo.png",
+    "version": "2.0.0"
+  },
+  "marketplace": {
+    "platform": "codecanyon",
+    "itemId": "87654321",
+    "authorUsername": "your-username"
+  },
+  "repository": {
+    "provider": "github",
+    "owner": "your-org",
+    "repo": "wordpress-plugin-pro-private",
+    "branch": "main",
+    "isPrivate": true
+  },
+  "deployment": {
+    "platform": "vercel",
+    "framework": "other",
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "installCommand": "npm install",
+    "requiredEnvVars": [
+      {
+        "key": "LICENSE_KEY",
+        "value": "{{PURCHASE_CODE}}"
+      },
+      {
+        "key": "WP_API_KEY",
+        "userInput": true,
+        "required": true,
+        "description": "WordPress API key for plugin activation"
+      }
+    ]
+  }
+}
+

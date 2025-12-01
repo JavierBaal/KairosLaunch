@@ -33,6 +33,7 @@ If applicable, add screenshots to help explain your problem.
 - **Browser:** [e.g. Chrome 120, Firefox 121, Safari 17]
 - **Node Version:** [e.g. 18.17.0]
 - **KairosLaunch Version:** [e.g. 0.1.0]
+- **Vercel Account:** [e.g. Free, Pro, Enterprise]
 
 ## Additional Context
 

@@ -1,0 +1,49 @@
+{
+  "product": {
+    "id": "nextjs-saas-template",
+    "name": "Next.js SaaS Template",
+    "description": "A modern SaaS template built with Next.js, TypeScript, and Tailwind CSS",
+    "logo": "https://example.com/logo.png",
+    "version": "1.0.0"
+  },
+  "marketplace": {
+    "platform": "codecanyon",
+    "itemId": "12345678",
+    "authorUsername": "your-username"
+  },
+  "repository": {
+    "provider": "github",
+    "owner": "your-org",
+    "repo": "nextjs-saas-template-private",
+    "branch": "main",
+    "isPrivate": true
+  },
+  "deployment": {
+    "platform": "vercel",
+    "framework": "nextjs",
+    "buildCommand": "npm run build",
+    "outputDirectory": ".next",
+    "installCommand": "npm install",
+    "requiredEnvVars": [
+      {
+        "key": "LICENSE_KEY",
+        "value": "{{PURCHASE_CODE}}"
+      },
+      {
+        "key": "DATABASE_URL",
+        "userInput": true,
+        "required": false,
+        "description": "PostgreSQL connection string (optional)"
+      },
+      {
+        "key": "NEXT_PUBLIC_APP_URL",
+        "value": "{{DEPLOYMENT_URL}}"
+      }
+    ]
+  },
+  "validation": {
+    "endpoint": "https://api.example.com/validate",
+    "method": "POST"
+  }
+}
+

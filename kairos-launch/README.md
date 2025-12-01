@@ -1,14 +1,22 @@
 # KairosLaunch
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Stars](https://img.shields.io/github/stars/JavierBaal/kairos-launch?style=social)](https://github.com/JavierBaal/kairos-launch/stargazers)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com)
 
 > **Open-source, configuration-driven deployment orchestrator** that automates the installation of SaaS products from marketplace platforms (Codecanyon, Gumroad, etc.) directly to customer Vercel accounts.
 
 ## 🎯 Mission
 
 Convert marketplace buyers into deployed customers in **<5 minutes** with **zero technical friction**.
+
+## 🎬 See it in Action
+
+> **Note:** Demo video/GIF coming soon! The installation wizard guides users through a seamless 5-step process from marketplace purchase to deployed app.
+
+*From marketplace purchase to deployed app in 3 minutes*
 
 ## ✨ Features
 
@@ -113,18 +121,29 @@ KairosLaunch is built with:
 
 - [Configuration Guide](docs/configuration.md) - Learn how to configure products
 - [API Documentation](docs/api.md) - API endpoints reference
+- [Examples](../examples/) - Example product configurations
+- [Roadmap](ROADMAP.md) - Planned features and improvements
 - [Contributing Guide](../CONTRIBUTING.md) - How to contribute
-- [PRD](../KairosLaunch-PRD.md) - Complete product requirements
 
 ## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guide](../CONTRIBUTING.md) for details.
+
+**Looking for your first contribution?** Check out issues labeled [`good first issue`](https://github.com/JavierBaal/kairos-launch/labels/good%20first%20issue).
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+## 🗺️ Roadmap
+
+See our [Roadmap](ROADMAP.md) for planned features and improvements. Current focus:
+- **v1.0.0:** Stable release with Envato support
+- **v1.1.0:** Gumroad and Lemon Squeezy integration
+- **v1.2.0:** Analytics dashboard and monitoring
+- **v2.0.0:** Plugin system for extensibility
 
 ## 📝 License
 

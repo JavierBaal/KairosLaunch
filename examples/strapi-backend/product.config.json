@@ -1,0 +1,53 @@
+{
+  "product": {
+    "id": "strapi-backend-pro",
+    "name": "Strapi Backend Pro",
+    "description": "A headless CMS backend built with Strapi",
+    "logo": "https://example.com/strapi-logo.png",
+    "version": "1.5.0"
+  },
+  "marketplace": {
+    "platform": "codecanyon",
+    "itemId": "11223344",
+    "authorUsername": "your-username"
+  },
+  "repository": {
+    "provider": "github",
+    "owner": "your-org",
+    "repo": "strapi-backend-pro-private",
+    "branch": "main",
+    "isPrivate": true
+  },
+  "deployment": {
+    "platform": "vercel",
+    "framework": "other",
+    "buildCommand": "npm run build",
+    "outputDirectory": "build",
+    "installCommand": "npm install",
+    "requiredEnvVars": [
+      {
+        "key": "LICENSE_KEY",
+        "value": "{{PURCHASE_CODE}}"
+      },
+      {
+        "key": "DATABASE_URL",
+        "userInput": true,
+        "required": true,
+        "description": "PostgreSQL connection string"
+      },
+      {
+        "key": "JWT_SECRET",
+        "userInput": true,
+        "required": true,
+        "description": "JWT secret for authentication"
+      },
+      {
+        "key": "ADMIN_JWT_SECRET",
+        "userInput": true,
+        "required": true,
+        "description": "Admin JWT secret"
+      }
+    ]
+  }
+}
+
