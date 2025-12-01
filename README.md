@@ -114,7 +114,6 @@ KairosLaunch is built with:
 - [Configuration Guide](docs/configuration.md) - Learn how to configure products
 - [API Documentation](docs/api.md) - API endpoints reference
 - [Contributing Guide](CONTRIBUTING.md) - How to contribute
-- [PRD](KairosLaunch-PRD.md) - Complete product requirements
 
 ## 🤝 Contributing
 
