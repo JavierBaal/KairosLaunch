@@ -6,6 +6,9 @@
 
 > **Open-source, configuration-driven deployment orchestrator** that automates the installation of SaaS products from marketplace platforms (Codecanyon, Gumroad, etc.) directly to customer Vercel accounts.
 
+https://github.com/user-attachments/assets/9e679d7c-38dc-47f4-b549-cd227d10cc24
+
+
 ## 🎯 Mission
 
 Convert marketplace buyers into deployed customers in **<5 minutes** with **zero technical friction**.
